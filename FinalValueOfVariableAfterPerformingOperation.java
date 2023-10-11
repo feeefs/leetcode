@@ -4,5 +4,5 @@ class FinalValueOfVariableAfterPerformingOperation {
                 int x =0;
                 for (String operation : operations) x += (44 - operation.charAt(1));
                 return x;
-            }
+        }
 }
