@@ -1,6 +1,6 @@
 // Complexity Analysis --> Time and space complexity of O(N)
 class ReverseVowelsOfAString {
-    public String reverseVowels(String s) {
+    public String solve(String s) {
         char[] characters = s.toCharArray();
         int start = 0;
         int end = s.length() - 1;
