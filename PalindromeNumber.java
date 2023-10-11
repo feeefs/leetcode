@@ -1,6 +1,6 @@
 // Consumes o(N) time and O(1) space.
 class PalindromeNumber {
-    public boolean test(int x) {
+    public boolean solve(int x) {
         if(x < 0) return false; 
         int original = x;
         int reversed = 0;
