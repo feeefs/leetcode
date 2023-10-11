@@ -1,4 +1,4 @@
-// Consumes o(N) time and O(1) space.
+// Consumes O(N) time and O(1) space.
 class PalindromeNumber {
     public boolean solve(int x) {
         if(x < 0) return false; 
